@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/visual.css">
+    <script src="./JS/proceso.js"></script>
+    <title>Contabilidad</title>
+</head>
+<body>
+    <hr>
+    <div id="registro" class="registroMaster">
+        <section class="registro">
+            <h4 class="text-center">Informacion empleado</h4>
+            <input class="cajaTxt" type="text" name="nombre" id="nombres" placeholder="Ingrese su nombre">
+            <select class="cajaTxt" name="Vehiculo" id="Cargo">
+                <option value="Seleccionar">--Seleccionar cargo--</option>
+                <option value="Administrativo">Administrativo</option>
+                <option value="Supervisor">Supervisor</option>
+                <option value="Operario">Operario</option>
+            <option value="calidad">Control de calidad</option>
+            </select>
+            
+            <input class="cajaTxt" type="text" name="horasEXT" id="horasEXT" placeholder="Horas extras">
+            <button class="boton" onclick="PAGO ()" type="button">Generar Pago</button>
+        </section>
+    </div>
+    <hr>
+      </div>  
+      <div id="IMPRIMIR-EMPLEADO"></div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>  
+</body>
+</html>
